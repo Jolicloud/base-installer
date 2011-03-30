@@ -6,7 +6,9 @@ XSBC-Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.o
 Uploaders: Petter Reinholdtsen <pere@debian.org>, Joey Hess <joeyh@debian.org>, Colin Watson <cjwatson@debian.org>, dann frazier <dannf@debian.org>, Frans Pop <fjp@debian.org>, Steve Langasek <vorlon@debian.org>
 Build-Depends: debhelper (>= 6), libdebconfclient0-dev (>= 0.46), libdebian-installer4-dev (>= 0.41)
 XS-Debian-Vcs-Svn: svn://svn.debian.org/d-i/trunk/packages/base-installer
-Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/base-installer/ubuntu
+XS-Ubuntu-Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/base-installer/ubuntu
+Vcs-Git: git://github.com/jolicloud/base-installer.git
+Vcs-Browser: https://github.com/jolicloud/base-installer
 
 Package: base-installer
 XC-Package-Type: udeb
